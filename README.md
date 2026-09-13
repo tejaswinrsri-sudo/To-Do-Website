@@ -6,6 +6,14 @@ A simple, elegant, and fully functional to-do list built with **vanilla HTML, CS
 
 ---
 
+## 🚀 Live Demo
+
+👉 **[https://to-do-website-snowy.vercel.app/](https://to-do-website-snowy.vercel.app/)**
+
+Try it directly in your browser — no installation required.
+
+---
+
 ## ✨ Features
 
 - ➕ **Add tasks** — type and press Enter, or click Add
@@ -29,6 +37,7 @@ A simple, elegant, and fully functional to-do list built with **vanilla HTML, CS
 | Styling | CSS3 (with animations) |
 | Logic | Vanilla JavaScript (ES6+) |
 | Storage | Browser `localStorage` API |
+| Hosting | Vercel |
 
 **Zero dependencies.** No React, no Vue, no Tailwind. Just the web platform.
 
@@ -67,12 +76,6 @@ Then visit `http://localhost:3000` (or whatever port the tool prints).
 ### No installation needed
 
 There's nothing to install. No `npm install`. No build step. Just three files.
-
----
-
-## 🌐 Live Demo
-
-👉 **[https://your-site.netlify.app](https://your-site.netlify.app)**
 
 ---
 
@@ -124,27 +127,31 @@ The `currentFilter` variable (`'all' | 'active' | 'completed'`) controls which t
 
 This is a **static site** — deploy it anywhere in seconds.
 
-### Option 1: Netlify (recommended)
+### Option 1: Vercel (recommended — used for this project)
+1. Push this repo to GitHub
+2. Go to [vercel.com](https://vercel.com) → **Add New Project** → **Import from GitHub**
+3. Pick your repo
+4. Framework preset: **Other** (no build command needed)
+5. Click **Deploy** ✅
+
+### Option 2: Netlify
 1. Push this repo to GitHub
 2. Go to [app.netlify.com](https://app.netlify.com) → **Add new site** → **Import from GitHub**
 3. Pick your repo
 4. Build command: *(leave empty)*
 5. Publish directory: `.`
-6. Click **Deploy** ✅
+6. Click **Deploy**
 
-### Option 2: Drag & Drop (fastest)
+### Option 3: Drag & Drop
 1. Go to [app.netlify.com/drop](https://app.netlify.com/drop)
 2. Drag your project folder onto the page
 3. Done — instant live URL
 
-### Option 3: GitHub Pages
+### Option 4: GitHub Pages
 1. Push to GitHub
 2. Repo → **Settings** → **Pages**
 3. Source: `main` branch, root folder
 4. Save — live at `https://your-username.github.io/repo-name/`
-
-### Option 4: Vercel
-Same as Netlify — just import the repo, leave build command empty.
 
 ---
 
